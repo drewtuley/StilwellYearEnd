@@ -1,0 +1,16 @@
+[transaction]
+separator=,
+date_format=%%d-%%b-%%y
+filename=transactions.csv
+
+[spreadsheet]
+sheet_name_format=%%B %%Y
+save_filename=elref.xlsx
+date_format=%%d/%%m/%%Y
+
+[category_mapping]
+DD to Old Mutual Life=Pension Contributions
+S/O to Sg Cont Accnt=Accountancy
+DD to Hmrc Vat=VAT paid  o HMRC
+Giro Digital Gurus Elref Limited Digital Gurus=Sales Invoice
+Giro Rethink It - Rrs Elref Limited Rethink Recruitme=Sales Invoice
